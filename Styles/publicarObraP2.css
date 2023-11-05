@@ -1,0 +1,279 @@
+<style>
+.body {
+	src: url('../Fontes/Armata.zip') format('truetype');
+}
+
+.conteudo {
+	display: flex;
+	padding: 100px 100px 50px 100px;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.tituloPublicarObra {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	whitespace: nowrap;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.linkVoltarPublicarObraP1 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+
+.formP2 {
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 25px;
+}
+
+.passosPublicarObra {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.txtTituloLivro {
+	background-color: #D9D9D9;
+	border-radius: 10px;
+	border: none;
+	width: 540px;
+	resize: none;
+}
+
+.txtDescricao {
+	background-color: #D9D9D9;
+	border-radius: 10px;
+	border: none;
+	width: 540px;
+}
+
+.divCat {
+	display: flex;
+	width: 540px;
+	height: 140px;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	overflow-y: auto;
+}
+
+.checkboxCat {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	gap: 10px;
+	align-self: stretch;
+	flex-wrap: wrap;
+}
+.checkboxCat input{
+	display: none;
+}
+
+.checkboxCat label{
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	font-family: Armata;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	border-radius: 6px;
+}
+
+.checkboxCat label:hover {
+	color: #1F4152;
+	background-color: #D0DDD9;
+	border: 2px solid #1F4152;
+}
+
+.checkboxCat input + label {
+	color: #1F4152;
+	background-color: #fff;
+	border: 2px solid #1F4152;
+}
+
+.checkboxCat input:checked + label {
+	color: #FFF;
+	background-color: #1F4152;
+	border: none;
+}
+
+.respostaRadio {
+	display: flex;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	whitespace: nowrap;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.radioBtn input {
+	display: none;
+}
+
+.radioBtn input + label:before{
+	content: '';
+	height: 30px;
+	width: 30px;
+	border-radius: 100px;
+	border: 3px solid #7C7C7C;
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.radioBtn input:checked + label:before{
+	background: radial-gradient(circle, #6EBBB0 45%, transparent 50%);
+}
+
+.seletorCapitulos {
+	display: none;
+}
+
+.hEditCap {
+	display: flex;
+	padding: 20px 50px;
+	align-items: center;
+	gap: 10px;
+	align-self: stretch;
+	background: #1F4152;
+	border-radius: 50px 50px 0px 0px;
+}
+
+.hEditCap label {
+	overflow: hidden;
+	color: #FFF;
+	text-overflow: ellipsis;
+	font-family: Arimo;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.hEditCap input {
+	color: #FFF;
+	font-family: Arimo;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	background: transparent;
+	border: none;
+	width: 50px;
+}
+
+.hEditCap button {
+	overflow: hidden;
+	color: #000;
+	text-align: center;
+	text-overflow: ellipsis;
+	font-family: Arimo;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	height: 25px;
+	padding: 0px 10px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	border: 2px solid #D9D9D9;
+	background: #FFF;
+}
+
+.editorCapitulos {
+	height: 500;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-self: stretch;
+	border-radius: 0px 0px 50px 50px;
+	background: #000;
+	overflow-y: scroll;
+}
+
+.capitulos {
+	background: #000;
+	padding: 10px 50px;
+	align-items: center;
+	flex-shrink: 0;
+	align-self: stretch;
+}
+
+.btnPublicar {
+	color: #E7E1D5;
+	font-family: Armata;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	display: flex;
+	height: 50px;
+	padding: 0px 20px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 25px;
+	background: #1F4152;
+	border: none;
+}
+
+/*Edição de capítulos:*/
+.lblPag
+{
+	margin-top: 10px;
+	color: white;
+}
+.lblIn
+{
+	color: white;
+}
+.txtNomeCapitulo {
+	color: white;
+	border-radius: 4px;
+    background-color: transparent;
+	border: 1px solid #7C7C7C;
+	margin-left: 10px;
+}
+.txtPaginaCapitulo {
+	color: #fff;
+	border-radius: 4px;
+    background-color: transparent;
+	border: 1px solid #7C7C7C;
+	margin-left: 35px;
+}
+.linhaCap
+{
+	height: 3px; 
+	border: none;
+	width: 100%;
+	color: white;
+	margin: 10px solid #ffffff;
+	background-color: white;
+}
+/*Fim da edição de capítulos:*/
+
+</style>

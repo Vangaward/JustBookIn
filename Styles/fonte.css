@@ -1,0 +1,17 @@
+<style>
+.body {
+    src: url('../Fontes/Armata.zip') format('truetype');
+    src: url('../Fontes/Arimo.zip') format('truetype');
+}
+.tituloCard {
+    font-family: 'Armata';
+}
+
+.tituloPagina {
+	font-family: 'Armata';
+}
+
+.texto {
+	font-family: 'Arimo';
+}
+</style>

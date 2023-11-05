@@ -1,0 +1,43 @@
+<style>
+
+@keyframes Rotacao3d
+{
+	from {transform: rotateX(180deg);}
+	to {transform: rotateX(0deg);}
+}
+@keyframes mudaCapa
+{
+  to
+  {
+    width: 725px; height: 525px;
+  }
+}
+@keyframes fecharCapa
+{
+     from {width: 725px; height: 525px;}
+    to {width: 380px; height: 525px;}
+}
+.capa.fechar-animacao
+{
+  animation-name: fecharCapa;
+  animation-duration: 0s;
+}
+.capa.abrir-animacao
+{
+  animation-name: mudaCapa;
+  animation-duration: 0s;
+}
+.capa
+{
+    background: #16463F;
+    width: 380px;
+    height: 525px;
+    position: absolute;
+    border-radius: 25px;
+    animation: mudaCapa 500ms ease-in-out 790ms forwards;
+    padding: 30px;
+    text-align: center;
+
+}
+
+</style>

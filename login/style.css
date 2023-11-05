@@ -1,0 +1,678 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: url(../imagens/FundoLogin.svg);
+     background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.titulo
+{
+    color: #1F4152;
+text-align: center;
+font-family: Angkor;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.lblEmail
+{
+align-self: stretch;
+color: #1F4152;
+text-align: center;
+font-family: Libre Baskerville;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.lblRe
+{
+align-self: stretch;
+color: #1F4152;
+text-align: center;
+font-family: Libre Baskerville;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.lblSenha
+{
+align-self: stretch;
+color: #1F4152;
+text-align: center;
+font-family: Libre Baskerville;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#Email
+{
+width: 300px;
+height: 30px;
+border-top:none ;
+border-left: none;
+border-right: none;
+background-color: #E7E1D5;
+border-bottom: 2px solid #1F4152;
+}
+.txtRe
+{
+width: 300px;
+height: 30px;
+border-top:none ;
+border-left: none;
+border-right: none;
+background-color: #E7E1D5;
+border-bottom: 2px solid #1F4152;
+}
+.txtSenha
+{
+width: 300px;
+height: 30px;
+border-top:none ;
+border-left: none;
+border-right: none;
+background-color: #E7E1D5;
+border-bottom: 2px solid #1F4152;
+}
+.txtSenha1
+{
+border-top:none ;
+border-left: none;
+border-right: none;
+background-color: #E7E1D5;
+border-bottom: 2px solid #1F4152;
+width: 100%;
+height: 100%; 
+}
+.txtSenha2
+{
+border-top:none ;
+border-left: none;
+border-right: none;
+background-color: #E7E1D5;
+border-bottom: 2px solid #1F4152;
+width: 100%;
+height: 100%; 
+}
+.lblSenha1
+{
+margin-right: 275px;
+text-align: center; 
+color: #1F4152; 
+font-size: 16px; 
+font-family: Libre Baskerville; 
+font-weight: 400; 
+word-wrap: break-word
+}
+.lblSenha2 {
+    right: -45px;
+    position: relative; /* Define a posição como relativa */
+    top: -21px; /* Ajusta a posição verticalmente conforme necessário */
+    align-self: stretch;
+    color: #1F4152;
+    text-align: center;
+    font-family: Libre Baskerville;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btnEsqueciSenha
+{
+    background-color: transparent;
+    border: none;
+    margin-left: 90px;
+    color: #ff0d6a;
+}
+.btnEsqueciSenha2
+{
+    background-color: transparent;
+    border: none;
+    margin-left: 90px;
+    color: #ff0d6a;
+}
+ .btnEntrar
+{
+display: flex;
+width: 150px;
+height: 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+color: #D6CCB8;
+background: #1F4152;
+margin-right: 10px;
+}
+.btnRecupera
+{
+display: flex;
+width: 150px;
+height: 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+color: #D6CCB8;
+background: #1F4152;
+margin-right: 10px;
+}
+.btnVoltar
+{
+display: flex;
+width: 150px;
+height: 50px;
+flex-direction: column;
+overflow: hidden;
+text-align: center;
+text-overflow: ellipsis;
+font-family: Libre Baskerville;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: none;
+color: #1F4152;
+background-color: #E7E1D5;
+margin-right: 10px;
+}
+.btnCadastrar
+{
+display: flex;
+width: 150px;
+height: 50px;
+flex-direction: column;
+overflow: hidden;
+text-align: center;
+text-overflow: ellipsis;
+font-family: Libre Baskerville;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: none;
+color: #1F4152;
+background-color: #E7E1D5;
+margin-right: 10px;
+}
+
+.btnVis
+{
+width:  30px;
+height: 30px;
+gap: 10px;
+border-radius: 5px;
+color: #D6CCB8;
+background: #1F4152;
+}
+.container
+{
+display: flex;
+}
+.txtLogo
+{
+align-self: stretch;
+color: #1F4152;
+text-align: center;
+font-family: Libre Baskerville;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.btnVoltar
+{
+display: flex;
+width: 150px;
+height: 50px;
+flex-direction: column;
+overflow: hidden;
+text-align: center;
+text-overflow: ellipsis;
+font-family: Libre Baskerville;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: none;
+color: #1F4152;
+background-color: #E7E1D5;
+margin-right: 10px;
+}
+
+/* Book */
+.book {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    transition: transform 0.5s;
+}
+
+.paper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    perspective: 1500px;
+
+}
+
+.front, .back {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+.front
+{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #fffbdb;
+
+    z-index: 1;
+    backface-visibility: hidden;
+}
+.back
+{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #fffbdb;
+    z-index: 0;
+}
+
+.front-content, .back-content
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    perspective: 1500px;
+
+}
+
+.front
+{
+display: flex;
+padding-right: 0px;
+align-items: center;
+border-radius: 0px 45px 45px 0px;
+background: #D6CCB8;
+z-index: 1;
+backface-visibility: hidden;
+
+}
+.back
+{
+display: flex;
+padding-left: 0px;
+justify-content: flex-end;
+align-items: center;
+border-radius: 25px 45px 45px 25px;
+background: #D6CCB8;
+z-index: 0;
+}
+
+.back-content
+{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 25px 0px 0px 25px;
+border-right: 4px solid #D6CCB8;
+border-left: 10px solid #D6CCB8;
+background: #E7E1D5;
+}
+.front-content
+{
+display: flex;
+width: 100%;
+height: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 0px 25px 25px 0px;
+border-right: 10px solid #D6CCB8;
+background: #E7E1D5;    
+}
+
+#f1
+{
+    background-color: #16463F;
+}
+.back-content {
+    transform: rotateY(180deg)
+}
+
+/* Paper flip effect */
+.flipped .front, .flipped .back
+{
+   transform: rotateY(-180deg);
+}
+
+/* Controller Buttons */
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.5s;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover i {
+    color: #636363;
+}
+
+.btnVoltar:hover  {
+    color: #636363;
+}
+.btnVis:hover  {
+    color: #636363;
+}
+.btnEntrar:hover  {
+    color: #636363;
+}
+.btnCadastrar:hover  {
+    color: #636363;
+}
+
+i {
+    font-size: 50px;
+    color: gray;
+}
+
+/* Paper stack order */
+#p1 {
+    z-index: 3;
+}
+
+#p2 {
+    z-index: 2;
+}
+
+#p3 {
+    z-index: 1;
+}
+
+ /* Ajuste o tamanho das imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/*Tamanho pequeno*/
+@media (max-width: 768px) {
+  body {
+    background: url(../imagens/FundoLogin.jpg), lightgray 50% / cover no-repeat;
+  }
+
+  .titulo {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+
+  .btnEntrar,
+  .btnCadastrar,
+  .btnVoltar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .btnEsqueciSenha {
+    margin-left: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book {
+    width: 90%;
+    height: auto;
+  }
+
+  .paper {
+    width: 100%;
+  }
+
+  .txtLogo {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .btnVis {
+    width: 30px;
+    height: 30px;
+    gap: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .btnVoltar {
+    margin-top: 5px;
+  }
+
+  .divErro {
+    font-size: 14px;
+  }
+}
+
+ @media (max-width: 768px){      .lblSenha1
+{
+
+margin-right: 0px;
+
+
+}
+.lblSenha2 
+{
+
+
+    right: 0px;
+    position: relative; 
+    top: 0px; 
+   
+
+}} 
+            .capa, #prev-btn, .book, #next-btn {
+                display: none;
+            }
+            .novo-codigo img.espiral {
+        margin-top: -200px; /
+    }
+
+ .capa2 {
+          background: #16463F;
+    width: 380px;
+    height: 525px;
+    position: absolute;
+    border-radius: 25px;
+    animation: mudaCapa 500ms ease-in-out 790ms forwards;
+    padding: 30px;
+    text-align: center;
+
+    }
+
+            /* Adicionar o novo código */
+            .novo-codigo {
+                width: 100%;
+                height: 100%;
+                background: #E7E1D5;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                overflow: hidden;
+                border-left: 5px #1F4152 solid;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                display: inline-flex;
+            }
+
+            .novo-codigo div {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 20px;
+                display: flex;
+            }
+
+            .novo-codigo .titulo {
+                align-self: stretch;
+                text-align: center;
+                color: #1F4152;
+                font-size: 32px;
+                font-family: Angkor;
+                font-weight: 400;
+                word-wrap: break-word;
+            }
+
+            .novo-codigo .input-container {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 20px;
+                display: flex;
+            }
+
+            .novo-codigo .input-container div {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                display: flex;
+            }
+
+            .novo-codigo .input-container .input-label {
+                align-self: stretch;
+                text-align: center;
+                color: #1F4152;
+                font-size: 16px;
+                font-family: Libre Baskerville;
+                font-weight: 400;
+                word-wrap: break-word;
+            }
+
+            .novo-codigo .input-container .input-field {
+                width: 300px;
+                height: 30px;
+                border-bottom: 1px #1F4152 solid;
+            }
+
+            .novo-codigo .senha-esquecida {
+                align-self: stretch;
+                text-align: right;
+                color: #FF008A;
+                font-size: 14px;
+                font-family: Libre Baskerville;
+                font-weight: 400;
+                word-wrap: break-word;
+            }
+  
+        } 
+        
+        
+        
+@media (max-width: 576px) {
+    .novo-codigo {
+        display: block; 
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+   
+    .capa, #prev-btn, .book, #next-btn {
+        display: none;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 992px) {
+   
+    .novo-codigo {
+        display: none;
+    }
+
+   
+    .capa, #prev-btn, .book, #next-btn {
+        display: block;
+    }
+}
+
+
+@media (min-width: 993px) {
+   
+    .novo-codigo {
+        display: none; 
+    }
+
+   
+    .capa, #prev-btn, .book, #next-btn {
+        display: block;
+    }
+    .lblSenha1
+{
+margin-right: 275px;
+text-align: center; 
+color: #1F4152; 
+font-size: 16px; 
+font-family: Libre Baskerville; 
+font-weight: 400; 
+word-wrap: break-word
+}
+.lblSenha2 {
+    right: -45px;
+    position: relative; /* Define a posição como relativa */
+    top: -21px; /* Ajusta a posição verticalmente conforme necessário */
+    align-self: stretch;
+    color: #1F4152;
+    text-align: center;
+    font-family: Libre Baskerville;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+}

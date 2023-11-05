@@ -1,0 +1,46 @@
+<style>
+
+body
+{
+	
+	padding-bottom: 200px;
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -200px; /* Isto deve ser igual à altura total do seu rodapé */
+}
+.conteudo
+{
+	display: flex;
+	padding: 100px 30px 50px 30px;
+	flex-direction: column;
+	gap: 50px;
+	min-height: 100%;
+}
+
+.inicio
+{
+	text-align: left;
+}
+
+.topLits {
+    display: flex;          /* Isso garante que as divs filhas estejam lado a lado */
+    width: 99%;
+    overflow-y: hidden; 
+    overflow-x: scroll;
+    //background-color: red;
+}
+
+.divDivisor {
+    flex-shrink: 0;         /* Isso garante que as divs não encolham, mesmo se a largura total das divs exceder a largura do contêiner */
+    margin-bottom: 24px;
+	margin-right: 20px;
+	white-space: nowrap;    /* Evita que o conteúdo dentro da div seja quebrado para a próxima linha */
+}
+
+
+
+
+</style>

@@ -1,0 +1,115 @@
+<style>
+body
+{
+    margin: 0;
+    padding: 0;
+    transition: margin 0.3s ease-in-out; /* Adicionando uma transição para suavizar o efeito */
+}
+
+        header {
+            background: #16463F;
+            color: white;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 2;
+        }
+
+header h1 {
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.btnPub { 
+    top: 50px;
+    position: fixed;
+    right: 100px;
+    transform: translateY(-50%); 
+    display: inline-flex;
+    height: 50px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px; 
+    border: none;
+    background: #6EBBB0;
+    cursor: pointer; 
+    outline: none; 
+}
+.btnLog { 
+    top: 40px;
+    position: fixed;
+    right: 0px;
+    transform: translateY(-50%); 
+    display: inline-flex;
+    height: 50px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px; 
+    border: none; 
+    background: #6EBBB0;
+    cursor: pointer; 
+    outline: none; 
+}
+.btnHis
+{
+text-align: right;
+margin-left: 126px; 
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: Armata;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase; 
+}
+.btnFav
+{
+text-align: right;
+margin-left: 50px; 
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: Armata;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.btnIns
+{
+text-align: right;
+margin-left: 117px; 
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: Armata;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.btnPub:hover {
+    background-color: #000;
+    color: #6EBBB0; 
+}
+
+.btnLog:hover {
+    background-color: #000;
+    color: #6EBBB0; 
+}
+.btnSide:hover {
+    color: #000; 
+}
+
+</style>
